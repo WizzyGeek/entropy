@@ -17,3 +17,18 @@ python3 entropy.py source.txt
 ```
 python3 entropy.py source1.txt source2.txt source3.txt
 ```
+
+## To calculate bit-level informational entropy in addition to byte-level entropy
+
+### Single File with --bit flag:
+
+```
+python entropy.py --bit source.txt
+```
+
+### Multiple Files with --bit flag
+
+```
+python entropy --bit source1.txt source2.txt source3.txt
+```
+
